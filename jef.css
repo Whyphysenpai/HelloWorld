@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+}
+section{
+  background-color: gray;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+  
+}
+section div{
+  border-top: 25px solid goldenrod;
+  border-left:  25px solid goldenrod;
+  border-bottom:  25px solid whitesmoke;
+  border-right:  25px solid whitesmoke;
+  border-radius: 50%;
+  margin: 30px;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+ 
+  top: 100%;
+  left
+}
+img{
+height: 100%;
+ width: 100%
+
+}
+footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px
+}
+footer a{
+  text-decoration: none;
+  color: goldenrod;
+  font-weight: 50%
+}
